@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_nav {
+    box-shadow: .1rem .1rem .5rem lightgray;
+}
+
+.hero_info {
+    flex: 5;
+}
+
+.hero_img {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 30rem;
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+.about_img {
+    flex: 1;
+}
+
+.about_info {
+    flex: 1;
+}
+
+.learn_info {
+
+    flex: 1;
+}
+
+.learn_img {
+    background-color: purple;
+    flex: 1;
+
+    img {
+        object-fit: cover;
+    }
+}
