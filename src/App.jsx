@@ -3,6 +3,7 @@ import HeroComp from "./components/Hero";
 import RatingComp from "./components/Rating";
 import Featured from "./components/Featured";
 import About from "./components/About";
+// Testimonial
 import Pricing from "./components/Pricing";
 import Learn from "./components/Learn";
 import Ready from "./components/Ready";
