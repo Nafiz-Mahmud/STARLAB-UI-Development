@@ -50,3 +50,15 @@
         object-fit: cover;
     }
 }
+
+.pricing_monthly_info {
+    flex: 1;
+}
+
+.pricing_one_time_info {
+    flex: 1;
+}
+
+.footer {
+    background-color: rgb(0, 60, 0);
+}

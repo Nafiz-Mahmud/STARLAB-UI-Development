@@ -3,8 +3,11 @@ import HeroComp from "./components/Hero";
 import RatingComp from "./components/Rating";
 import Featured from "./components/Featured";
 import About from "./components/About";
+import Pricing from "./components/Pricing";
 import Learn from "./components/Learn";
 import Ready from "./components/Ready";
+import Outro from "./components/Outro";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -16,10 +19,10 @@ function App() {
         <About />
         <Learn />
         <Ready />
-        {/* Pricing */}
+        <Pricing />
         {/* Testimonial */}
-        {/* Sub footer */}
-        {/* footer */}
+        <Outro />
+        <Footer />
       </div>
     </div>
   );
