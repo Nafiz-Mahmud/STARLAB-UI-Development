@@ -62,3 +62,24 @@
 .footer {
     background-color: rgb(0, 60, 0);
 }
+
+.star {
+    color: rgb(241, 241, 0);
+}
+
+.testimonial_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+.testimonial_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: -.1rem -.1rem .5rem lightgray,
+        .1rem .1rem .5rem lightgray,
+        inset -.1rem -.1rem .5rem lightgray;
+}

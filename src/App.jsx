@@ -3,10 +3,10 @@ import HeroComp from "./components/Hero";
 import RatingComp from "./components/Rating";
 import Featured from "./components/Featured";
 import About from "./components/About";
-// Testimonial
 import Pricing from "./components/Pricing";
 import Learn from "./components/Learn";
 import Ready from "./components/Ready";
+import Testimonial from "./components/Testimonial";
 import Outro from "./components/Outro";
 import Footer from "./components/Footer";
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Learn />
         <Ready />
         <Pricing />
-        {/* Testimonial */}
+        <Testimonial />
         <Outro />
         <Footer />
       </div>
