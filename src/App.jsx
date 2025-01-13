@@ -10,6 +10,7 @@ import Testimonial from "./components/Testimonial";
 import Outro from "./components/Outro";
 import Footer from "./components/Footer";
 function App() {
+  const res = ["Navbar"]
   return (
     <div>
       <Navbar />

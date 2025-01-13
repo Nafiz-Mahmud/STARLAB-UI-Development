@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 .main_nav {
     box-shadow: .1rem .1rem .5rem lightgray;
 }
@@ -43,7 +48,6 @@
 }
 
 .learn_img {
-    background-color: purple;
     flex: 1;
 
     img {
@@ -83,3 +87,16 @@
         .1rem .1rem .5rem lightgray,
         inset -.1rem -.1rem .5rem lightgray;
 }
+
+
+
+/* tailwind size based color */
+
+/* base red */
+/* sm   640  px yellow */
+/* md   768  px green */
+/* lg  1024  px blue */
+/* xl  1280  px black */
+/* 2xl 1536  px pruple */
+
+/* sm:bg-yellow-400 md:bg-green-400 lg:bg-blue-400 xl:bg-black 2xl:bg-purple-400 */
