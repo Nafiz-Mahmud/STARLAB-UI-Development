@@ -10,21 +10,20 @@ import Testimonial from "./components/Testimonial";
 import Outro from "./components/Outro";
 import Footer from "./components/Footer";
 function App() {
-  const res = ["Navbar", "HeroComp", "RatingComp", "Featured", "About", "Learn", "Ready"]
   return (
     <div>
       <Navbar />
       <div class="body">
-        {/* <HeroComp /> */}
-        {/* <RatingComp /> */}
-        {/* <Featured /> */}
-        {/* <About /> */}
-        {/* <Learn /> */}
-        {/* <Ready /> */}
+        <HeroComp />
+        <RatingComp />
+        <Featured />
+        <About />
+        <Learn />
+        <Ready />
         <Pricing />
-        {/* <Testimonial /> */}
-        {/* <Outro /> */}
-        {/* <Footer /> */}
+        <Testimonial />
+        <Outro />
+        <Footer />
       </div>
     </div>
   );

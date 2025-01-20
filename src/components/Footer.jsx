@@ -1,10 +1,10 @@
 export default function Footer() {
     return (
-        <div className="footer py-[5rem] font-semibold text-white">
-            <div class="w-[90%] mx-auto flex justify-between">
+        <div className="footer py-[5rem] lg:text-[1.2rem] xl:text-[1.5rem] font-semibold text-white">
+            <div class="w-[90%] mx-auto flex flex-col lg:flex-row justify-between">
                 <div style={{ flex: 1 }} className="follow_info ">
                     <h1 class="mr-[5rem]">We make onboarding new employees ridiculously easy. On day one, they are ready to go. And retaining them is easier.</h1>
-                    <div class="flex mt-[5rem] gap-[1rem] items-center">
+                    <div class="flex mt-[2rem] mb-[2rem] lg:mb-[2rem] lg:mt-[5rem] gap-[1rem] items-center">
                         <p>Follow us on:</p>
                         <div className="links flex text-white text-[2rem] gap-[1rem]">
                             <svg fill="currentColor" stroke-width="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" height="1em" width="1em"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path></svg>
@@ -14,7 +14,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div style={{ flex: 1 }} class="other_links flex justify-around">
+                <div style={{ flex: 1 }} class="other_links flex justify-between lg:justify-around">
                     <div class="flex flex-col gap-[1rem]">
                         <p>Home</p>
                         <p>Why Us</p>

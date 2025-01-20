@@ -2,9 +2,9 @@ import outroImg from "../assets/img_one.png"
 export default function Outro() {
     return (
         <div class="hero  mt-[2rem] mt-[5rem] bg-green-900 text-white">
-            <div class="flex items-center py-[3rem] justify-between w-[90%] mx-auto">
+            <div class="flex flex-col-reverse lg:flex-row items-center py-[3rem] justify-between w-[90%] mx-auto">
                 <div className="hero_info flex flex-col items-start justify-around">
-                    <h1 class="mt-[1rem] text-[2.8rem] font-bold">Mastering Proven Strategies That Drive Real Results!</h1>
+                    <h1 class="mt-[1rem] text-[1.5rem] md:text-[2.8rem] font-bold">Mastering Proven Strategies That Drive Real Results!</h1>
                     <p class="font-bold  my-[2rem]">Unleash the power of strategic marketing with our comprehensive course, designed to empower you with the skills and knowledge necessary to navigate the dynamic landscape of modern business.</p>
                     <button class="px-[1rem] py-[.5rem] my-[1rem] rounded-full bg-green-600 text-white font-bold hover:animate-pulse hover:scale-105 duration-300">Enroll Now {`>`}</button>
                     <div class="flex items-center justify-center gap-[1.5rem]">

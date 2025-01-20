@@ -5,7 +5,7 @@ export default function Navbar() {
     const [openSideBar, setOpenSideBar] = createSignal(false)
     return (
         <nav>
-            <div className="h-[1rem] w-[100%] bg-red-400 sm:bg-yellow-400 md:bg-green-400 lg:bg-blue-400 xl:bg-black 2xl:bg-purple-400"></div>
+            {/* <div className="h-[1rem] w-[100%] bg-red-400 sm:bg-yellow-400 md:bg-green-400 lg:bg-blue-400 xl:bg-black 2xl:bg-purple-400"></div> */}
             {
                 topNavOpen() &&
                 <span class="top_bar bg-green-800 text-white font-bold flex items-center py-[.25rem] px-[2rem]">
