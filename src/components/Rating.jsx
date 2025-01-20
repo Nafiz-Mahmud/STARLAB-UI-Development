@@ -2,7 +2,7 @@ export default function RatingComp() {
     return (
         <div class="rating mt-[4rem]  w-[90%] mx-auto">
             <h1 class="font-bold mb-[2rem] text-[1.5rem]">What They Say About Us</h1>
-            <div className="cards mb-[5rem] flex items-center gap-[2rem]">
+            <div className="cards mb-[5rem] grid grid-cols-[repeat(1,fr)] md:grid-cols-[repeat(2,1fr)] xl:grid-cols-[repeat(3,1fr)] items-center gap-[2rem]">
                 <div className="card bg-gray-100 flex flex-col items-start gap-[1.5rem] p-[1.5rem] rounded-xl">
                     <span class="icon_rating flex items-center gap-[.5rem]">
                         <div className="icons flex text-yellow-400">
